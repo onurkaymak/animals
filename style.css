@@ -1,0 +1,116 @@
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 10vh repeat(3, 1fr);
+}
+
+h1 {
+  text-align: center;
+  background-color: #cc2936;
+  width: 30%;
+  justify-self: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+.forest_animals {
+  background-color: #243010;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 2px -2px gray;
+  transition: all 0.5s;
+}
+
+.forest_animals:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+  background-color: #87a330;
+  box-shadow: 0 8px 2px -2px gray;
+}
+
+.forest_animals_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.forest_animals_list_item {
+  list-style: none;
+}
+
+.forest_animals_img {
+  width: 140px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.ocean_animals {
+  background-color: #2589bd;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 2px -2px gray;
+  transition: all 0.5s;
+}
+
+.ocean_animals:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+  background-color: #054a91;
+  box-shadow: 0 8px 2px -2px gray;
+}
+
+.ocean_animals_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ocean_animals_list_item {
+  list-style: none;
+}
+
+.ocean_animals_img {
+  width: 140px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.flying_animals {
+  background-color: #2d3142;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 2px -2px gray;
+  transition: all 0.5s;
+}
+
+.flying_animals:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+  background-color: #bfbccb;
+  box-shadow: 0 8px 2px -2px gray;
+}
+
+.flying_animals_list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flying_animals_list_item {
+  list-style: none;
+}
+
+.flying_animals_img {
+  width: 140px;
+  height: auto;
+  border-radius: 50%;
+}
